@@ -1,0 +1,16 @@
+{
+  "name": "node-assessment",
+  "version": "1.0.0",
+  "description": "NodeJS Server - Assessment for 2Hats",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Katherine Sutarlim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0"
+  }
+}
