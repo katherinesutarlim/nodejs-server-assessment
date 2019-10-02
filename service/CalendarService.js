@@ -109,10 +109,10 @@ async function createBooking(auth, year, month, date, hour, minute) {
   if (!month) {
     throw 'Request is missing parameter: month';
   }
-  if (!date) {
+  if (!(date)) {
     throw 'Request is missing parameter: day';
   }
-  if (!hour) {
+  if (isNaN(hour)) {
     throw 'Request is missing parameter: hour';
   }
   if (isNaN(minute)) {
